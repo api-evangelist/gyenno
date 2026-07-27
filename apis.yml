@@ -1,8 +1,30 @@
 aid: gyenno
-name: gyenno
-description: gyenno is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: GYENNO
+description: >-
+  GYENNO is a medical technology company that designs assistive devices and
+  digital-health tools for people living with Parkinson's disease and other
+  movement disorders. Its consumer product line includes the GYENNO Bravo
+  anti-tremor eating utensil (a stabilizing, weighted spoon/fork that counteracts
+  hand tremor) and the GYENNO Skywalk portable freezing-of-gait mobility aid that
+  projects a visual laser cue to help users resume walking, alongside a range of
+  adaptive and weighted utensils and daily-living aids. GYENNO was surfaced as a
+  portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network. As of this enrichment pass the company publishes a consumer marketing
+  site only and exposes no public developer portal, API documentation, or
+  machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/gyenno/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gyenno.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Parkinson's Disease
+- Assistive Technology
+- Digital Health
+- Wearables
+- Neurology
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,10 @@ maintainers:
 common:
 - type: Website
   url: https://gyenno.com
+- type: DomainSecurity
+  url: security/gyenno-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
